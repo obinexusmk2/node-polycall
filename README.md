@@ -16,7 +16,7 @@
 To install the `libpolycall` Node.js bindings, run:
 
 ```sh
-npm install @obinexuscomputing/node-polycall
+npm install @obinexus/node-polycall
 ```
 
 ## Usage
@@ -90,7 +90,7 @@ To build the Node.js bindings from source, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://gitlab.com/obinexuscomputing/libpolycall.git
+    git clone https://gitlab.com/obinexus/libpolycall.git
     cd libpolycall/bindings/node-polycall
     ```
 
