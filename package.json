@@ -30,5 +30,8 @@
     "bugs": {
         "url": "https://gitlab.com/obinexusmk2/libpolycall/issues"
     },
-    "homepage": "https://gitlab.com/obinexusmk2/libpolycall#readme"
+    "homepage": "https://gitlab.com/obinexusmk2/libpolycall#readme",
+    "bin": {
+        "node-polycall": "bin/node-polycall.js"
+    }
 }
