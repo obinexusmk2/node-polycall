@@ -68,3 +68,7 @@ function main(argv) {
 }
 
 process.exitCode = main(process.argv);
+const pkg = require('../package.json');
+
+console.log(`${pkg.name} v${pkg.version}`);
+console.log('CLI scaffolding is set up. Add command handlers in bin/node-polycall.js.');
