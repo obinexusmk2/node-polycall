@@ -21,6 +21,22 @@ npm install @obinexus/node-polycall
 
 ## Usage
 
+## CLI
+
+A minimal, stable CLI surface is available through `node-polycall`:
+
+```sh
+node-polycall info
+node-polycall --help
+node-polycall --version
+```
+
+- `info` (default command): prints a compact summary of exported APIs and protocol constant counts.
+- `--help`: prints usage.
+- `--version`: prints package version.
+
+For full functionality, use the JavaScript API documented below.
+
 ### Basic Example
 
 ```js
