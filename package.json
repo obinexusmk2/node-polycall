@@ -21,43 +21,6 @@
     ],
     "author": "obinexus",
     "license": "MIT",
-    "private": false,
-    "devDependencies": {},
-    "directories": {
-        "example": "examples"
-    },
-    "type": "commonjs",
-    "bugs": {
-        "url": "https://gitlab.com/obinexusmk2/libpolycall/issues"
-    },
-    "homepage": "https://gitlab.com/obinexusmk2/libpolycall#readme",
-    "bin": {
-        "polycall": "src/cli.js"
-    }
-}
-{
-    "name": "@obinexusmk2/node-polycall",
-    "version": "1.0.0",
-    "description": "Node.js bindings for libpolycall - A Program First Data-Oriented Program Interface",
-    "main": "src/index.js",
-    "scripts": {
-        "start": "node src/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://gitlab.com/obinexusmk2/libpolycall.git"
-    },
-    "keywords": [
-        "libpolycall",
-        "polycalls",
-        "data-oriented",
-        "api",
-        "bindings",
-        "nodejs"
-    ],
-    "author": "obinexus",
-    "license": "MIT",
     "private": true,
     "devDependencies": {},
     "directories": {
@@ -70,49 +33,5 @@
     "homepage": "https://gitlab.com/obinexusmk2/libpolycall#readme",
     "bin": {
         "node-polycall": "bin/node-polycall.js"
-    }
-}
-{
-    "name": "@obinexusmk2/node-polycall",
-    "version": "1.0.0",
-    "description": "Node.js bindings for libpolycall - A Program First Data-Oriented Program Interface",
-    "main": "src/index.js",
-    "bin": {
-        "node-polycall": "./bin/node-polycall.js"
-    },
-    "files": [
-        "src/",
-        "bin/",
-        "README.md"
-    ],
-    "scripts": {
-        "start": "node src/index.js",
-        "test": "echo \"No tests specified\""
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://gitlab.com/obinexusmk2/node-polycall.git"
-    },
-    "keywords": [
-        "libpolycall",
-        "polycalls",
-        "data-oriented",
-        "api",
-        "bindings",
-        "nodejs"
-    ],
-    "author": "obinexus",
-    "license": "MIT",
-    "devDependencies": {},
-    "directories": {
-        "example": "examples"
-    },
-    "type": "commonjs",
-    "bugs": {
-        "url": "https://gitlab.com/obinexusmk2/node-polycall/issues"
-    },
-    "homepage": "https://gitlab.com/obinexusmk2/node-polycall#readme",
-    "engines": {
-        "node": ">=18"
     }
 }

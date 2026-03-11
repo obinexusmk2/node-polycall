@@ -53,15 +53,7 @@ polycall exports
 
 ## Publishing checklist
 
-1. Verify the package contents before publishing:
-   ```sh
-   npm pack
-   ```
-2. Publish the scoped package publicly:
-   ```sh
-   npm publish --access public
-   ```
-3. Confirm the CLI command resolves and runs after install (global or local via `npx`):
+1. Confirm the CLI command resolves and runs after install (global or local via `npx`):
    ```sh
    polycall --help
    # or
