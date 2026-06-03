@@ -1,15 +1,16 @@
 {
-    "name": "@obinexusmk2/node-polycall",
+    "name": "@obinexusltd/node-polycall",
     "version": "1.0.0",
     "description": "Node.js bindings for libpolycall - A Program First Data-Oriented Program Interface",
     "main": "src/index.js",
     "scripts": {
         "start": "node src/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "node tests/index.js",
+        "prepublishOnly": "npm run test"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.com/obinexusmk2/libpolycall.git"
+        "url": "git+https://gitlab.com/obinexusltd/libpolycall.git"
     },
     "keywords": [
         "libpolycall",
@@ -17,21 +18,26 @@
         "data-oriented",
         "api",
         "bindings",
-        "nodejs"
+        "nodejs",
+        "obinexus"
     ],
     "author": "obinexus",
     "license": "MIT",
-    "private": true,
+    "private": false,
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "devDependencies": {},
     "directories": {
         "example": "examples"
     },
     "type": "commonjs",
     "bugs": {
-        "url": "https://gitlab.com/obinexusmk2/libpolycall/issues"
+        "url": "https://gitlab.com/obinexusltd/libpolycall/issues"
     },
-    "homepage": "https://gitlab.com/obinexusmk2/libpolycall#readme",
+    "homepage": "https://gitlab.com/obinexusltd/libpolycall#readme",
     "bin": {
+        "polycall": "bin/node-polycall.js",
         "node-polycall": "bin/node-polycall.js"
     }
 }
